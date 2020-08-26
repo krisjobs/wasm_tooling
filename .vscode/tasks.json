@@ -7,6 +7,11 @@
             "label": "test",
             "type": "shell",
             "command": "dub test"
+        },
+        {
+            "label": "wat2wasm",
+            "type": "shell",
+            "command": "ref/bin/wat2wasm.exe ref/data/test.wat -v -o ref/data/test.wasm"
         }
     ]
 }
