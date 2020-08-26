@@ -4,7 +4,7 @@ authors "kdimitrov"
 copyright "Copyright © 2020, kdimitrov"
 license "mit"
 
-mainSourceFile "source/app.d"
+mainSourceFile "src/app.d"
 targetType "executable"
 targetPath "bin/"
 

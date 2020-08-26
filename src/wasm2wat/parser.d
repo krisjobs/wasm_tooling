@@ -11,3 +11,8 @@ string wasm2Wat(const ubyte[] wasm) @safe pure
 {
     return watPlaceholder;
 }
+
+// string _wasm2Wat(const ubyte[] wasm) @safe pure
+// {
+//     return watPlaceholder;
+// }
