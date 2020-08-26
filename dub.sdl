@@ -1,0 +1,36 @@
+name "wasm"
+description "wasm2wat parser/decoder test project"
+authors "kdimitrov"
+copyright "Copyright © 2020, kdimitrov"
+license "mit"
+
+mainSourceFile "source/app.d"
+targetType "executable"
+targetPath "bin/"
+
+configuration "win32" {
+	platforms "windows-x86"
+	targetType "executable"
+	targetPath "bin/Win32"
+}
+configuration "win64" {
+	platforms "windows-x86_64"
+	targetType "executable"
+	targetPath "bin/Win64"
+}
+configuration "linux32" {
+	platforms "linux-x86"
+	targetType "executable"
+	targetPath "bin/Linux32"
+}
+configuration "linux64" {
+	platforms "linux-x86_64"
+	targetType "executable"
+	targetPath "bin/Linux64"
+}
+
+configuration "macos" {
+	platforms "osx-x86_64"
+	targetType "executable"
+	targetPath "bin/macOS"
+}
