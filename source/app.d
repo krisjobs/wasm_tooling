@@ -1,7 +1,6 @@
 import std.stdio;
-import test
+import test; 
 
-void main()
-{
+void main() {
 	writeln(test.test());
 }
