@@ -9,7 +9,8 @@ immutable string watPlaceholder = "(module
 
 string wasm2Wat(const ubyte[] wasm) @safe pure
 {
-    return watPlaceholder;
+  wasm = null;
+  return watPlaceholder;
 }
 
 // string _wasm2Wat(const ubyte[] wasm) @safe pure
